@@ -18,7 +18,7 @@
   "homepage": "https://github.com/ngOfficeUIFabric/ngofficeuifabric.github.io#readme",
   "dependencies": {
     "angular": "^1.4.8",
-    "ng-office-ui-fabric": "^0.1.0",
+    "ng-office-ui-fabric": "^0.1.1",
     "office-ui-fabric": "^1.2.0"
   }
 }
