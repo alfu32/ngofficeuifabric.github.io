@@ -1,0 +1,24 @@
+{
+  "name": "ngofficeuifabric.github.io",
+  "version": "0.1.0",
+  "description": "Public site for the ngOfficeUiFabric library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngOfficeUIFabric/ngofficeuifabric.github.io.git"
+  },
+  "author": "Andrew Connell <me@andrewconnell.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngOfficeUIFabric/ngofficeuifabric.github.io/issues"
+  },
+  "homepage": "https://github.com/ngOfficeUIFabric/ngofficeuifabric.github.io#readme",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "ng-office-ui-fabric": "^0.1.0",
+    "office-ui-fabric": "^1.2.0"
+  }
+}
