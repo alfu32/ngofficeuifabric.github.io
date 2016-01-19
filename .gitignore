@@ -6,4 +6,5 @@ node_modules
 !node_modules/angular-animate/angular-animate.min.js
 !node_modules/office-ui-fabric/dist/css/fabric.min.css
 !node_modules/office-ui-fabric/dist/css/fabric.components.min.css
+!node_modules/office-ui-fabric/dist/components/ProgressIndicator/ProgressIndicator.css
 !node_modules/ng-office-ui-fabric/ngOfficeUiFabric.min.js
