@@ -53,14 +53,14 @@
     &lt;uif-callout-header&gt;All of your favorite people&lt;/uif-callout-header&gt;
     &lt;uif-callout-content&gt;People automatically puts together all of the people you care most about in one place.&lt;/uif-callout-content&gt;
     &lt;uif-callout-actions&gt;
-      &lt;button class=&quot;ms-Callout-button ms-Button ms-Button--primary&quot;&gt;
-        &lt;span class=&quot;ms-Button-label&quot;&gt;More&lt;/span&gt;
-        &lt;span class=&quot;ms-Button-description&quot;&gt;Description of the action this button takes&lt;/span&gt;
-      &lt;/button&gt;
-      &lt;button class=&quot;ms-Callout-button ms-Button&quot;&gt;
-        &lt;span class=&quot;ms-Button-label&quot;&gt;Got it&lt;/span&gt;
-        &lt;span class=&quot;ms-Button-description&quot;&gt;Description of the action this button takes&lt;/span&gt;
-      &lt;/button&gt;
+      &lt;uif-button uif-type=&quot;primary&quot;&gt;
+        More
+        &lt;uif-button-description&gt;Description of the action this button takes&lt;/uif-button-description&gt;
+      &lt;/uif-button&gt;
+      &lt;uif-button&gt;
+        Got it
+        &lt;uif-button-description&gt;Description of the action this button takes&lt;/uif-button-description&gt;
+      &lt;/uif-button&gt;
     &lt;/uif-callout-actions&gt;
   &lt;/uif-callout&gt;
       </pre>
@@ -71,14 +71,14 @@
       <uif-callout-header>All of your favorite people</uif-callout-header>
       <uif-callout-content>People automatically puts together all of the people you care most about in one place.</uif-callout-content>
       <uif-callout-actions>
-        <button class="ms-Callout-button ms-Button ms-Button--primary">
-          <span class="ms-Button-label">More</span>
-          <span class="ms-Button-description">Description of the action this button takes</span>
-        </button>
-        <button class="ms-Callout-button ms-Button">
-          <span class="ms-Button-label">Got it</span>
-          <span class="ms-Button-description">Description of the action this button takes</span>
-        </button>
+        <uif-button uif-type="primary">
+          More
+          <uif-button-description>Description of the action this button takes</uif-button-description>
+        </uif-button>
+        <uif-button>
+          Got it
+          <uif-button-description>Description of the action this button takes</uif-button-description>
+        </uif-button>
       </uif-callout-actions>
     </uif-callout>
   </p>
@@ -90,10 +90,10 @@
   &lt;uif-callout uif-arrow=&quot;right&quot; uif-type=&quot;peek&quot;&gt;
     &lt;uif-callout-header&gt;Uploaded 2 items to &lt;span class=&quot;ms-Link&quot;&gt;Alton&apos;s OneDrive&lt;/span&gt;&lt;/uif-callout-header&gt;
     &lt;uif-callout-actions&gt;
-      &lt;button class=&quot;ms-Callout-button ms-Button&quot;&gt;
-        &lt;span class=&quot;ms-Button-label&quot;&gt;More&lt;/span&gt;
-        &lt;span class=&quot;ms-Button-description&quot;&gt;Description of the action this button takes&lt;/span&gt;
-      &lt;/button&gt;
+      &lt;uif-button&gt;
+        More
+        &lt;uif-button-description&gt;Description of the action this button takes&lt;/uif-button-description&gt;
+      &lt;/uif-button&gt;
     &lt;/uif-callout-actions&gt;
   &lt;/uif-callout&gt;
       </pre>
@@ -103,10 +103,10 @@
     <uif-callout uif-arrow="right" uif-type="peek">
       <uif-callout-header>Uploaded 2 items to <span class="ms-Link">Alton's OneDrive</span></uif-callout-header>
       <uif-callout-actions>
-        <button class="ms-Callout-button ms-Button">
-          <span class="ms-Button-label">More</span>
-          <span class="ms-Button-description">Description of the action this button takes</span>
-        </button>
+        <uif-button>
+          More
+          <uif-button-description>Description of the action this button takes</uif-button-description>
+        </uif-button>
       </uif-callout-actions>
     </uif-callout>
   </p>
@@ -119,16 +119,16 @@
     <pre>
   &lt;uif-callout uif-action-text&gt;
     &lt;uif-callout-header&gt;All of your favorite people&lt;/uif-callout-header&gt;
-    &lt;uif-callout-content&gt;People automatically puts together all of the people you care most about in one place.&lt;/uif-callout-header&gt;
+    &lt;uif-callout-content&gt;People automatically puts together all of the people you care most about in one place.&lt;/uif-callout-content&gt;
     &lt;uif-callout-actions&gt;
-      &lt;button class=&quot;ms-Callout-action ms-Button ms-Button--command&quot;&gt;
-        &lt;span class=&quot;ms-Callout-actionText ms-Button-icon&quot;&gt;&lt;i class=&quot;ms-Icon ms-Icon--check&quot;&gt;&lt;/i&gt;&lt;/span&gt;
-        &lt;span class=&quot;ms-Button-label&quot;&gt;Save&lt;/span&gt;
-      &lt;/button&gt;
-      &lt;button class=&quot;ms-Callout-action ms-Button ms-Button--command&quot;&gt;
-        &lt;span class=&quot;ms-Button-icon&quot;&gt;&lt;i class=&quot;ms-Icon ms-Icon--x&quot;&gt;&lt;/i&gt;&lt;/span&gt;
-        &lt;span class=&quot;ms-Callout-actionText ms-Button-label&quot;&gt;Cancel&lt;/span&gt;
-      &lt;/button&gt;
+      &lt;uif-button uif-type=&quot;command&quot;&gt;
+        &lt;uif-icon uif-type=&quot;check&quot;&gt;&lt;/uif-icon&gt;
+        Save
+      &lt;/uif-button&gt;
+      &lt;uif-button uif-type=&quot;command&quot;&gt;
+        &lt;uif-icon uif-type=&quot;x&quot;&gt;&lt;/uif-icon&gt;
+        Cancel
+      &lt;/uif-button&gt;
     &lt;/uif-callout-actions&gt;
   &lt;/uif-callout&gt;
       </pre>
@@ -137,17 +137,17 @@
   <p>
     <uif-callout uif-action-text>
       <uif-callout-header>All of your favorite people</uif-callout-header>
-      <uif-callout-content>People automatically puts together all of the people you care most about in one place.</uif-callout-header>
-        <uif-callout-actions>
-          <button class="ms-Callout-action ms-Button ms-Button--command">
-            <span class="ms-Callout-actionText ms-Button-icon"><i class="ms-Icon ms-Icon--check"></i></span>
-            <span class="ms-Button-label">Save</span>
-          </button>
-          <button class="ms-Callout-action ms-Button ms-Button--command">
-            <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--x"></i></span>
-            <span class="ms-Callout-actionText ms-Button-label">Cancel</span>
-          </button>
-        </uif-callout-actions>
+      <uif-callout-content>People automatically puts together all of the people you care most about in one place.</uif-callout-content>
+      <uif-callout-actions>
+        <uif-button uif-type="command">
+          <uif-icon uif-type="check"></uif-icon>
+          Save
+        </uif-button>
+        <uif-button uif-type="command">
+          <uif-icon uif-type="x"></uif-icon>
+          Cancel
+        </uif-button>
+      </uif-callout-actions>
     </uif-callout>
   </p>
 
