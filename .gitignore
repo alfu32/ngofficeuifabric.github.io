@@ -4,6 +4,7 @@ node_modules
 # include the necessary scripts and styles
 !node_modules/angular/angular.min.js
 !node_modules/angular-animate/angular-animate.min.js
+!node_modules/angular-sanitize/angular-sanitize.min.js
 !node_modules/office-ui-fabric/dist/css/fabric.min.css
 !node_modules/office-ui-fabric/dist/css/fabric.components.min.css
 !node_modules/office-ui-fabric/dist/components/ProgressIndicator/ProgressIndicator.css
