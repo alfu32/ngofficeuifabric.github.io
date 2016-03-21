@@ -9,3 +9,7 @@ node_modules
 !node_modules/office-ui-fabric/dist/css/fabric.components.min.css
 !node_modules/office-ui-fabric/dist/components/ProgressIndicator/ProgressIndicator.css
 !node_modules/ng-office-ui-fabric/ngOfficeUiFabric.min.js
+
+!node_modules/jquery/dist/jquery.min.js
+!node_modules/pickadate/lib/compressed/picker.js
+!node_modules/pickadate/lib/compressed/picker.date.js
