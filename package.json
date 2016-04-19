@@ -1,6 +1,6 @@
 {
   "name": "ngofficeuifabric.github.io",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Public site for the ngOfficeUiFabric library.",
   "main": "index.js",
   "scripts": {
@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/ngOfficeUIFabric/ngofficeuifabric.github.io#readme",
   "dependencies": {
-    "angular": "1.4.9",
-    "angular-animate": "1.4.9",
-    "angular-sanitize": "1.4.9",
-    "ng-office-ui-fabric": "0.7.0",
-    "office-ui-fabric": "2.1.0"
+    "angular": "1.5.3",
+    "angular-animate": "1.5.3",
+    "angular-sanitize": "1.5.3",
+    "ng-office-ui-fabric": "0.8.0",
+    "office-ui-fabric": "2.2.0"
   }
 }
