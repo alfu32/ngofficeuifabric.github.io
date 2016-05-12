@@ -2,17 +2,17 @@
 <html ng-app="demoApp">
 
 <head>
-  <title>ngOfficeUiFabric | uif-Dropdown demo</title>
-    <meta charset="utf-8" />
-    <script src="/scripts/azAppInsights.js"></script>
-    <!-- office ui fabric css -->
-    <link rel="stylesheet" href="/node_modules/office-ui-fabric/dist/css/fabric.min.css" />
-    <link rel="stylesheet" href="/node_modules/office-ui-fabric/dist/css/fabric.components.min.css" />
-    <!-- angular library -->
-    <script src="/node_modules/angular/angular.min.js"></script>
-    <!-- ngofficeuifabric library -->
-    <script src="/node_modules/ng-office-ui-fabric/ngOfficeUiFabric.min.js"></script>
-    <script src="index.js"></script>
+  <title>ngOfficeUiFabric | uif-dropdown demo</title>
+  <meta charset="utf-8" />
+  <script src="/scripts/azAppInsights.js"></script>
+  <!-- office ui fabric css -->
+  <link rel="stylesheet" href="/node_modules/office-ui-fabric/dist/css/fabric.min.css" />
+  <link rel="stylesheet" href="/node_modules/office-ui-fabric/dist/css/fabric.components.min.css" />
+  <!-- angular library -->
+  <script src="/node_modules/angular/angular.min.js"></script>
+  <!-- ngofficeuifabric library -->
+  <script src="/node_modules/ng-office-ui-fabric/ngOfficeUiFabric.min.js"></script>
+  <script src="index.js"></script>
 </head>
 
 <body>
@@ -24,28 +24,19 @@
     <p>
         This markup: <br />
         <pre>
-        &lt;uif-dropdown ng-model=&quot;dropdownValue&quot; &gt;
-            &lt;uif-dropdown-option value=&quot;value1&quot;&gt;Value 1&lt;/uif-dropdown-option&gt;
-            &lt;uif-dropdown-option value=&quot;value2&quot;&gt;Value 2&lt;/uif-dropdown-option&gt;
-            &lt;uif-dropdown-option value=&quot;value3&quot;&gt;Value 3&lt;/uif-dropdown-option&gt;
-            &lt;uif-dropdown-option value=&quot;value4&quot;&gt;Value 4&lt;/uif-dropdown-option&gt;
+        &lt;uif-dropdown ng-model=&quot;value&quot;&gt;
+            &lt;uif-dropdown-option value="{{key}<!---->}" ng-repeat="(key, value) in values" title="{{value}<!---->}"&gt;{{value}<!---->}&lt;/uif-dropdown-option&gt;
         &lt;/uif-dropdown&gt;
         </pre>
     </p>
 
-    <p>
+    <p ng-controller="demoController">
         Renders this:
         <br />
-        <uif-dropdown ng-model="dropdownValue">
-            <uif-dropdown-option value="value1">Value 1</uif-dropdown-option>
-            <uif-dropdown-option value="value2">Value 2</uif-dropdown-option>
-            <uif-dropdown-option value="value3">Value 3</uif-dropdown-option>
-            <uif-dropdown-option value="value4">Value 4</uif-dropdown-option>
+        <uif-dropdown ng-model="value">
+            <uif-dropdown-option value="{{key}}" ng-repeat="(key, value) in values" title="{{value}}">{{value}}</uif-dropdown-option>
         </uif-dropdown>
-
-    </p>
-    <p>
-        <span>dropdownValue: {{dropdownValue}}</span>
+        Value: {{value}}
     </p>
   
   
