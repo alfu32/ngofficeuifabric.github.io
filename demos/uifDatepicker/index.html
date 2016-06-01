@@ -20,79 +20,62 @@
   <script src="index.js"></script>
 </head>
 
-<body ng-app="demoApp" ng-controller="demoController">
+<body ng-app="demoApp">
 
-  <h1 class="ms-font-su">Datepicker Demo | &lt;uif-datepicker&gt;</h1>
-  <em>In order for this demo to work you must first build the library in debug mode.</em>
-  <br/>
-  <em>This directive depends on
-    <ul>
-        <li><a href="https://jquery.com/">jQuery</a></li>
-        <li><a href="http://amsul.ca/pickadate.js/">pickadate.js</a></li>
-    </ul>
-    Add references to jquery.js, pickadate.js, and picker.js, and picker.date.js BEFORE
-    the ngofficeuifabric.js reference</em>
-    <hr />
-    <h2>Demos</h2>
-    
-    <h3>Default values with ng-model</h3>
-  <p>
-    This markup: <br />
-    <code>
-        &lt;uif-datepicker ng-model=&quot;value&quot;/&gt;
-    </code>
-    <br/>and this script:
-    <code>
-        $scope.value = new Date(2016, 3, 2);
-    </code>
-  </p>
+    <h1 class="ms-font-su">Searchbox Demo | &lt;uif-searchbox&gt;</h1>
+    <em>In order for this demo to work you must first build the library in debug mode.</em>
 
-  <p>
-    Renders this:
-    <br />
-    <uif-datepicker ng-model="value"/>
-    <br/>
-    <p>Value: {{value}}</p>
-  </p>
-  
-  <h3>Custom months, label, and placeholder</h3>
-  <p>
-    This markup: <br />
-    <code>
-        &lt;uif-datepicker ng-model=&quot;value_2&quot;&#13;&#10;       uif-months=&quot;Jan,Feb,Maa,Apr,Mei,Jun,Jul,Aug,Sep,Okt,Nov,Dec&quot;&#13;&#10;       uif-label=&quot;Start date&quot;&#13;&#10;       placeholder=&quot;Please, find a date&quot;&#13;&#10;       /&gt;
-    </code>
-  </p>
+    <p>
+        Use the attributes <code>uif-value</code> to specify the value of the search field.
+    </p>
+    <p>
+        Use the attributes <code>placeholder</code> to specify the placeholder of the search field.
+    </p>
 
-  <p>
-    Renders this:
-    <br />
+    <p>
+        This markup: <br />
+        <code>
+            &lt;uif-searchbox  /&gt;
+        </code>
+    </p>
 
-    <uif-datepicker ng-model="value_2"
-       uif-months="Jan,Feb,Maa,Apr,Mei,Jun,Jul,Aug,Sep,Okt,Nov,Dec"
-       uif-label="Start date"
-       placeholder="Please, find a date"
-       />
-    <br/>
-    <p>Value: {{value_2}}</p>
+    <p>
+        Renders this:
+        <br />
+        <uif-searchbox  />
+    </p>
 
-  </p>
-  <h3>Empty label</h3>
-  <p>
-    
-    This markup: <br />
-    <code>
-        &lt;uif-datepicker uif-label=&quot;&quot; /&gt;
-    </code>
-  </p>
+    <div ng-controller="demoController">
+        <p>
+            Example using a controller
+        </p>
+        <uif-searchbox value="value" placeholder="placeholder"></uif-searchbox>
+        <br/>
+        Searchbox can be disabled with <em>disabled</em> attribute or <em>ng-disabled</em> directive:
 
-  <p>
-    Renders this:
-    <br />
-
-    <uif-datepicker uif-label="" />
-    
-  </p>
-
+        <p>
+            This markup: <br /><br />
+        <code>
+            &lt;label&gt;Click me to toggle: &lt;input type=&quot;checkbox&quot; ng-model=&quot;disabled&quot;&gt;&lt;/label&gt;&lt;br/&gt;<br/>
+            &lt;uif-searchbox  ng-disabled=&quot;disabled&quot;/&gt;
+        </code>
+            <br /><br />
+            Renders this:
+            <br/>
+            <label>Click me to toggle: <input type="checkbox" ng-model="disabled"></label><br/>
+            <uif-searchbox  ng-disabled="disabled"/>
+        </p>
+        <p>
+            This markup: <br /><br />
+        <code>
+            &lt;uif-searchbox disabled=&quot;disabled&quot;/&gt;
+        </code>
+            <br /><br />
+            Renders this:
+            <br/>
+            <uif-searchbox  disabled="disabled"/>
+        </p>
+    </div>
 
 </body>
 
