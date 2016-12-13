@@ -1,6 +1,6 @@
 {
   "name": "ngofficeuifabric.github.io",
-  "version": "0.12.0",
+  "version": "0.12.11",
   "description": "Public site for the ngOfficeUiFabric library.",
   "main": "index.js",
   "scripts": {
