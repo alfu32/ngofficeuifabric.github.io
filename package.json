@@ -20,7 +20,8 @@
     "angular": "1.5.8",
     "angular-animate": "1.5.8",
     "angular-sanitize": "1.5.8",
-    "ng-office-ui-fabric": "0.12.3",
-    "office-ui-fabric": "2.6.1"
+    "ng-office-ui-fabric": "0.12.11",
+    "office-ui-fabric": "2.6.2",
+    "pickadate": "3.5.6"
   }
 }
