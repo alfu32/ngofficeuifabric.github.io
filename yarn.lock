@@ -18,9 +18,9 @@ jquery@>=1.7:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.1.1.tgz#347c1c21c7e004115e0a4da32cece041fad3c8a3"
 
-ng-office-ui-fabric@0.12.11:
-  version "0.12.11"
-  resolved "https://registry.yarnpkg.com/ng-office-ui-fabric/-/ng-office-ui-fabric-0.12.11.tgz#7a5fd29f95a133b8a1f9050c498126ba333e3463"
+ng-office-ui-fabric@0.13.1:
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/ng-office-ui-fabric/-/ng-office-ui-fabric-0.13.1.tgz#99571e80474cb96efb269b4bfb1c598e4caa32ee"
   dependencies:
     angular "1.5.8"
     office-ui-fabric "2.6.2"
