@@ -2,32 +2,32 @@
 # yarn lockfile v1
 
 
-angular-animate@1.5.8:
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/angular-animate/-/angular-animate-1.5.8.tgz#535f7369225aba7fb15bf7134c71b15bc635c586"
+angular-animate@1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/angular-animate/-/angular-animate-1.6.4.tgz#d3eb906d39834f2dfbdd982e6b8d7a3b4d9001d2"
 
-angular-sanitize@1.5.8:
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/angular-sanitize/-/angular-sanitize-1.5.8.tgz#1832f69487ee820a21cbe30055a8fb1bdf297ab8"
+angular-sanitize@1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/angular-sanitize/-/angular-sanitize-1.6.4.tgz#60a37ea96fb0d4a322a3ccb64ee4a5cf3b154f0c"
 
-angular@1.5.8:
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/angular/-/angular-1.5.8.tgz#925a5392b8c212d09572dc446db7e01264e094cb"
+angular@1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/angular/-/angular-1.6.4.tgz#03b7b15c01a0802d7e2cf593240e604054dc77fb"
 
 jquery@>=1.7:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.1.1.tgz#347c1c21c7e004115e0a4da32cece041fad3c8a3"
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
 
-ng-office-ui-fabric@0.13.1:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/ng-office-ui-fabric/-/ng-office-ui-fabric-0.13.1.tgz#99571e80474cb96efb269b4bfb1c598e4caa32ee"
+ng-office-ui-fabric@0.15.2:
+  version "0.15.2"
+  resolved "https://registry.yarnpkg.com/ng-office-ui-fabric/-/ng-office-ui-fabric-0.15.2.tgz#47eee583aec6031aa2b0e83f660110b3b9e37f21"
   dependencies:
-    angular "1.5.8"
-    office-ui-fabric "2.6.2"
+    angular "1.6.4"
+    office-ui-fabric "2.6.3"
 
-office-ui-fabric@2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/office-ui-fabric/-/office-ui-fabric-2.6.2.tgz#794286260185ea80c9ddf1ae01db5ae395a587ce"
+office-ui-fabric@2.6.3:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/office-ui-fabric/-/office-ui-fabric-2.6.3.tgz#2c81a4f38857174303c4398a0a0ee3c17fb2fad2"
 
 pickadate@3.5.6:
   version "3.5.6"
